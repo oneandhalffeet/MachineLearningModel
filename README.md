@@ -24,6 +24,7 @@ e. warp and weft count
   
 f. EPI and PPI
   
+  ### both thread count should be written to predict with accuracy
 g. Actual thread count{thread count expected will suffice}
   
 f. GSM of fabric
