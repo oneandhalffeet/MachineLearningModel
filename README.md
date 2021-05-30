@@ -12,18 +12,18 @@ XGBoost model for prediction of tear strength of fabric using fabric paramters
 8. It will output the predicted tear strength for both directions.
 9. Input parameters need for prediction is 
 
-a. thread count(expected)
+a. thread count(expected) { if this is not available you can use actual thread count}
   
 b. weave of fabric (1 for plain, 2 for satin)
   
-c. finishing sequence of fabric
+c. finishing sequence of fabric {in our input data we have 5 finishing sequences which are, dyed, white dyed, pigment print, r. dyed and dyed over print}
   
-d. blend %
+d. blend % { we used % of cotton in the blend as a parameter}
   
 e. warp and weft count
   
 f. EPI and PPI
   
-g. Actual thread count
+g. Actual thread count{thread count expected will suffice}
   
 f. GSM of fabric
